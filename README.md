@@ -78,7 +78,7 @@ This project is a **work-in-progress** and is not intended for production use. I
 ## 🛠️ Getting Started
 
 ```bash
-git clone https://github.com/your-username/zero-trust-session-poc.git
+git clone [https://github.com/your-username/zero-trust-session-poc.git](https://github.com/jacob-git/zero-trust-session-poc)
 cd zero-trust-session-poc
 
 # Install frontend dependencies (React, etc.)
