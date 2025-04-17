@@ -37,7 +37,16 @@ Each module includes the signed session token and device fingerprint in its API 
 
 ## 📁 Folder Structure
 
-zero-trust-session-poc/ ├── src/ │ ├── shell-app/ # Entry point and layout │ ├── module-a/ # Example module using token+fingerprint │ └── auth/ # Login form and token generation logic ├── server/ # Mock backend for session validation ├── diagrams/ # Architecture visuals and flowcharts ├── docs/ # Project documentation and security notes └── README.md
+zero-trust-session-poc/
+├── src/
+│   ├── shell-app/           # Base UI app with login + layout
+│   ├── module-a/            # Example frontend module
+│   └── auth/                # Token + fingerprint handling
+├── server/                  # Mock backend validator (Node.js + Redis)
+├── diagrams/                # Architecture diagram(s)
+├── docs/                    # Documentation and flow explanation
+└── README.md
+
 
 
 ---
